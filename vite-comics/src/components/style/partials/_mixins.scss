@@ -9,4 +9,12 @@
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
+}
+
+@mixin container {
+    height: 100%;
+    max-width: 85%;
+    border: 2px solid limegreen;
+    margin: auto;
 }

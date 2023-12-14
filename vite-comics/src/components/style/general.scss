@@ -5,15 +5,28 @@
     @include reset;
 }
 
-body {
-    background-color: rgb(72, 0, 0);
+.container {
+    @include container;
+    @include flex;
 }
 
+// header
 header {
-    height: 10rem;
+    height: 6rem;
     background-color: $header-color;
 }
 
 .nav-list {
     @include flex;
+    list-style: none;
+}
+
+// main
+main {
+    height: 12rem;
+
+    #categories {
+        height: 6rem;
+        border: 2px solid black;
+    }
 }
