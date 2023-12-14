@@ -1,10 +1,19 @@
 @use './partials/mixins' as *;
 @use './partials/variables' as *;
 
-// * {
-//     @include reset;
-// }
+* {
+    @include reset;
+}
 
 body {
     background-color: rgb(72, 0, 0);
+}
+
+header {
+    height: 10rem;
+    background-color: $header-color;
+}
+
+.nav-list {
+    @include flex;
 }
