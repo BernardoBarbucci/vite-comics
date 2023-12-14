@@ -2,7 +2,7 @@
     <header>
         <div class="container">
             <div class="logo">
-
+                <!-- <img src="./style/vue-dc-comics-1/img/dc.logo.png" alt="logo"> -->
             </div>
             <nav class="navbar">
                 <ul class="nav-list">
@@ -30,8 +30,8 @@ export default {
     
 <style lang="scss" scoped>
 .nav-list>li {
-    font-size: .7rem;
-    font-weight: bold;
+    font-size: .8rem;
+    font-weight: 500;
     margin: 8px;
 
     &:hover {

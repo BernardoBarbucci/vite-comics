@@ -3,6 +3,7 @@
 
 * {
     @include reset;
+    font-family: 'Roboto', sans-serif;
 }
 
 .container {
@@ -12,7 +13,7 @@
 
 // header
 header {
-    height: 6rem;
+    height: 7rem;
     background-color: $header-color;
 }
 
@@ -21,12 +22,20 @@ header {
     list-style: none;
 }
 
+h1 {
+    color: white;
+    font-weight: 700;
+}
+
 // main
 main {
-    height: 12rem;
+    #content {
+        height: 7rem;
+        background-color: $content-color;
+    }
 
     #categories {
-        height: 6rem;
-        border: 2px solid black;
+        height: 7rem;
+        background-color: $theme-color;
     }
 }

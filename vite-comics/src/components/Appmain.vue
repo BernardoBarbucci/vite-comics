@@ -1,8 +1,8 @@
 <template>
     <main>
         <section id="content">
-            <div class="container">
-
+            <div class="container title">
+                <h1> > Content goes here </h1>
             </div>
         </section>
         <section id="categories">
