@@ -1,9 +1,6 @@
 <template>
     <main>
         <section id="content">
-            <div class="container title">
-                <h1>container title </h1>
-            </div>
         </section>
         <section id="categories">
             <div class="container">
@@ -43,5 +40,9 @@ export default {
 <style lang="scss" scoped>
 .last-comic-img{
     height: 1.7rem;
+}
+#content{
+    background-image: url('../assets/vue-dc-comics-1/img/jumbotron.jpg');
+    
 }
 </style>
