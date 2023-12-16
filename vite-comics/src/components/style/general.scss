@@ -57,11 +57,14 @@ main {
         font-weight: bold;
         color: $white;
         @include flex-centered;
-        // border seguente da rimuovere
-        border: 2px solid white;
     }
 }
 
+// books / comics cards
+#books{
+    height: 22rem;
+    background-color: $content-color;
+}
 // categories
 .comics-categ{
     @include flex-evenly;
