@@ -37,13 +37,13 @@ export default {
     &:hover {
         color: rgb(47 131 241);
         font-weight: bold;
-        // qua sopra si potrebbe collegare in qualche modo al second-color?
     }
 }
 .logo{
     height: 80%;
     img{
         height: 100%;
+        transition: filter 0.5s ease-in-out;
     }
     img:hover{
         filter: drop-shadow(0 0 1rem  rgb(47 131 241));
