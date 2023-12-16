@@ -25,7 +25,7 @@
                         <p>COMIC SHOP LOCATOR</p>
                     </li>
                     <li class="comic-card">
-                        <img src="../assets/vue-dc-comics-1/img/buy-dc-power-visa.svg" class="comic-img" alt="battery">
+                        <img src="../assets/vue-dc-comics-1/img/buy-dc-power-visa.svg" class="last-comic-img" alt="battery">
                         <p>DC POWER VISA</p>
                     </li>
                 </ul>
@@ -41,4 +41,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.last-comic-img{
+    height: 1.7rem;
+}
 </style>

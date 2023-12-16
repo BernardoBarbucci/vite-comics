@@ -36,6 +36,7 @@ export default {
     transition: border-bottom 0.3s ease;
     &:hover {
         color: rgb(47 131 241);
+        font-weight: bold;
         // qua sopra si potrebbe collegare in qualche modo al second-color?
     }
 }
