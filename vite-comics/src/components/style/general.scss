@@ -13,13 +13,21 @@
 
 // header
 header {
-    height: 7rem;
+    height: 6rem;
     background-color: $header-color;
 }
 
 .nav-list {
     @include flex;
     list-style: none;
+
+    li{
+        transition: border-bottom 0.3s ease;
+    }
+    li:hover{
+        @extend li;
+        border-bottom: $borderHbottom solid $theme-color;
+    }
 }
 
 h1 {

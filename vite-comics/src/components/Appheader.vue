@@ -2,7 +2,7 @@
     <header>
         <div class="container">
             <div class="logo">
-                <!-- <img src="./style/vue-dc-comics-1/img/dc.logo.png" alt="logo"> -->
+                <img src="../assets/vue-dc-comics-1/img/dc-logo.png" alt="logo">
             </div>
             <nav class="navbar">
                 <ul class="nav-list">
@@ -33,10 +33,20 @@ export default {
     font-size: .8rem;
     font-weight: 500;
     margin: 8px;
-
+    transition: border-bottom 0.3s ease;
     &:hover {
         color: rgb(47 131 241);
         // qua sopra si potrebbe collegare in qualche modo al second-color?
+
+    }
+}
+.logo{
+    height: 80%;
+    img{
+        height: 100%;
+    }
+    img:hover{
+        filter: drop-shadow(0 0 1rem  rgb(47 131 241));
     }
 }
 </style>

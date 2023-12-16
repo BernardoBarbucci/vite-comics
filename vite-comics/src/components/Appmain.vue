@@ -2,7 +2,7 @@
     <main>
         <section id="content">
             <div class="container title">
-                <h1> > Content goes here </h1>
+                <h1>container title </h1>
             </div>
         </section>
         <section id="categories">
