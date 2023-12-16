@@ -43,6 +43,7 @@ export default {
 }
 #content{
     background-image: url('../assets/vue-dc-comics-1/img/jumbotron.jpg');
-    
+    background-size: cover;
+    background-position: top;
 }
 </style>
