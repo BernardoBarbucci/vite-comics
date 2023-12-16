@@ -1,7 +1,17 @@
 <template>
     <main>
         <section id="content">
+            <div class="container">
+                <div class="current-series">
+                    <p>CURRENT SERIES</p>
+                </div>
+            </div>
         </section>
+
+        <section id="books">
+
+        </section>
+
         <section id="categories">
             <div class="container">
                 <ul class="comics-categ">

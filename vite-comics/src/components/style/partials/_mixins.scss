@@ -12,12 +12,19 @@
     align-items: center;
 }
 
-@mixin flex-evenly{
+@mixin flex-evenly {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
 }
+
+@mixin flex-centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 
 @mixin container {
     height: 100%;

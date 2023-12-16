@@ -43,6 +43,25 @@ main {
         background-color: $theme-color;
     }
 }
+
+// jumbotron
+.current-series{
+    height: 2rem;
+    padding-top: 14rem;
+
+    P{
+        background-color: rgb(47, 131, 241);
+        height: 2rem;
+        width: 8rem;
+        font-size: .8rem;
+        font-weight: bold;
+        color: $white;
+        @include flex-centered;
+        // border seguente da rimuovere
+        border: 2px solid white;
+    }
+}
+
 // categories
 .comics-categ{
     @include flex-evenly;
