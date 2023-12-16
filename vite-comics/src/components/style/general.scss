@@ -14,7 +14,7 @@
 // header
 header {
     height: 6rem;
-    background-color: $header-color;
+    background-color: $white;
 }
 
 .nav-list {
@@ -44,6 +44,30 @@ main {
 
     #categories {
         height: 7rem;
+        width: 100%;
         background-color: $theme-color;
     }
 }
+.comics-categ{
+    @include flex-around;
+    width: 100%;
+    height: 100%;
+    border: 2px solid yellow;
+}
+.comic-card{
+    border: 2px solid yellow;
+    @include flex-around;
+    height: 100%;
+
+    list-style: none;
+    .comic-img{
+    height: 3rem;
+    }
+
+    p{
+        font-size: .75rem;
+        color: $white;
+    }
+}
+
+

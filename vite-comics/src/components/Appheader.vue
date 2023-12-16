@@ -37,7 +37,6 @@ export default {
     &:hover {
         color: rgb(47 131 241);
         // qua sopra si potrebbe collegare in qualche modo al second-color?
-
     }
 }
 .logo{

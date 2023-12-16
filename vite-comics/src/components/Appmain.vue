@@ -7,7 +7,32 @@
         </section>
         <section id="categories">
             <div class="container">
-
+                <ul class="comics-categ">
+                    <li class="comic-card">
+                        <img src="../assets/vue-dc-comics-1/img/buy-comics-digital-comics.png" class="comic-img" alt="digital comics">
+                        <p>Digital comics</p>
+                    </li>
+                    <li class="comic-card">
+                        <img src="../assets/vue-dc-comics-1/img/buy-comics-digital-comics.png" class="comic-img" alt="digital comics">
+                        <p>DC Merchandise</p>
+                    </li>
+                    <li class="comic-card">
+                        <img src="../assets/vue-dc-comics-1/img/buy-comics-digital-comics.png" class="comic-img" alt="digital comics">
+                        <p>Digital comics</p>
+                    </li>
+                    <li class="comic-card">
+                        <img src="../assets/vue-dc-comics-1/img/buy-comics-digital-comics.png" class="comic-img" alt="digital comics">
+                        <p>Digital comics</p>
+                    </li>
+                    <li class="comic-card">
+                        <img src="../assets/vue-dc-comics-1/img/buy-comics-digital-comics.png" class="comic-img" alt="digital comics">
+                        <p>Digital comics</p>
+                    </li>
+                    <li class="comic-card">
+                        <img src="../assets/vue-dc-comics-1/img/buy-comics-digital-comics.png" class="comic-img" alt="digital comics">
+                        <p>Digital comics</p>
+                    </li>
+                </ul>
             </div>
         </section>
     </main>
@@ -19,5 +44,5 @@ export default {
 }
 </script>
 
-<script lang="scss">
-</script>
+<style lang="scss" scoped>
+</style>
