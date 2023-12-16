@@ -40,10 +40,10 @@ export default {
     }
 }
 .logo{
-    height: 80%;
+    height: 70%;
     img{
         height: 100%;
-        transition: filter 0.5s ease-in-out;
+        transition: filter 0.3s ease-in-out;
     }
     img:hover{
         filter: drop-shadow(0 0 1rem  rgb(47 131 241));
