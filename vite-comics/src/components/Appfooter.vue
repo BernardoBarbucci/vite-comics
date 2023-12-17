@@ -47,7 +47,31 @@
                 </div>
             </div>
         </section>
-
+        <section id="social-media" class="container">
+            <div class="left-info">
+                <h1>SIGN-UP NOW!</h1>
+            </div>
+            <div class="right-info">
+                <p>FOLLOW US</p>
+                <ul class="socials">
+                    <li>
+                        <img src="../assets/vue-dc-comics-1/img/footer-facebook.png" alt="FB">
+                    </li>
+                    <li>
+                        <img src="../assets/vue-dc-comics-1/img/footer-periscope.png" alt="X">
+                    </li>
+                    <li>
+                        <img src="../assets/vue-dc-comics-1/img/footer-youtube.png" alt="YT">
+                    </li>
+                    <li>
+                        <img src="../assets/vue-dc-comics-1/img/footer-pinterest.png" alt="PS">
+                    </li>
+                    <li>
+                        <img src="../assets/vue-dc-comics-1/img/footer-periscope.png" alt="PR">
+                    </li>
+                </ul>
+            </div>
+        </section>
     </footer>
 </template>
 
@@ -58,35 +82,42 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-#footer-info{
+#footer-info {
     height: 20rem;
     background-image: url('../assets/vue-dc-comics-1/img/footer-bg.jpg');
-    .info-list{
+
+    .info-list {
         margin-top: 1.5rem;
     }
-    .info-list:nth-child(2){
+
+    .info-list:nth-child(2) {
         margin-left: 2rem;
     }
-    .info-list:nth-child(3){
+
+    .info-list:nth-child(3) {
         margin-left: 2rem;
     }
-    h1{
-    font-size: 1.1rem;
-    font-weight: bold;
-    margin-top: 1rem;
-    margin-bottom: .6rem;
+
+    h1 {
+        font-size: 1.1rem;
+        font-weight: bold;
+        margin-top: 1rem;
+        margin-bottom: .6rem;
     }
-    h1:hover{
+
+    h1:hover {
         color: #2f83f1;
     }
-    li{
+
+    li {
         font-size: .8rem;
         margin-bottom: .3rem;
         list-style: none;
         color: #828982;
         transition: transform 0.3s ease-in-out;
     }
-    li:hover{
+
+    li:hover {
         transform: scale(1.2);
         transform-origin: right right;
         color: white;

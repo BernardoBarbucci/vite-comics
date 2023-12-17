@@ -23,3 +23,8 @@ export default {
 @use './components/style/general.scss' as *;
 // @use './components/style/partials/mixins' as *;
 </style>
+
+<!-- commands start
+Berna@192 vite-comics % cd /Users/Berna/Desktop/vite-comics/vite-comics
+Berna@192 vite-comics % npm run dev 
+-->
