@@ -54,7 +54,7 @@ main {
     height: 2rem;
     padding-top: 14rem;
 
-    P {
+    p {
         background-color: rgb(47, 131, 241);
         height: 2rem;
         width: 8rem;
@@ -108,7 +108,7 @@ main {
 
 #social-media {
     background-color: $bottom-color;
-    height: 5.5rem
+    height: 4.7rem
 }
 
 .wrapper {
@@ -117,10 +117,25 @@ main {
 }
 
 .left-info h1 {
-    font-size: 1.2rem;
-
+    font-size: .8rem;
+    font-weight: 500;
     height: 2rem;
     width: 7rem;
+    text-align: center;
+    line-height: 28px;
     background-color: transparent;
     border: 2px solid $theme-color;
+
+    &:hover {
+        color: $theme-color;
+        border-color: $white;
+    }
+}
+
+.right-info {
+    @include flex-row;
+
+    ul {
+        @include flex-row;
+    }
 }
