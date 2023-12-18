@@ -47,29 +47,33 @@
                 </div>
             </div>
         </section>
-        <section id="social-media" class="container">
-            <div class="left-info">
-                <h1>SIGN-UP NOW!</h1>
-            </div>
-            <div class="right-info">
-                <p>FOLLOW US</p>
-                <ul class="socials">
-                    <li>
-                        <img src="../assets/vue-dc-comics-1/img/footer-facebook.png" alt="FB">
-                    </li>
-                    <li>
-                        <img src="../assets/vue-dc-comics-1/img/footer-periscope.png" alt="X">
-                    </li>
-                    <li>
-                        <img src="../assets/vue-dc-comics-1/img/footer-youtube.png" alt="YT">
-                    </li>
-                    <li>
-                        <img src="../assets/vue-dc-comics-1/img/footer-pinterest.png" alt="PS">
-                    </li>
-                    <li>
-                        <img src="../assets/vue-dc-comics-1/img/footer-periscope.png" alt="PR">
-                    </li>
-                </ul>
+        <section id="social-media">
+            <div class="container">
+                <div class="wrapper">
+                    <div class="left-info">
+                        <h1>SIGN-UP NOW!</h1>
+                    </div>
+                    <div class="right-info">
+                        <p>FOLLOW US</p>
+                        <ul class="socials">
+                            <li>
+                                <img src="../assets/vue-dc-comics-1/img/footer-facebook.png" alt="FB">
+                            </li>
+                            <li>
+                                <img src="../assets/vue-dc-comics-1/img/footer-periscope.png" alt="X">
+                            </li>
+                            <li>
+                                <img src="../assets/vue-dc-comics-1/img/footer-youtube.png" alt="YT">
+                            </li>
+                            <li>
+                                <img src="../assets/vue-dc-comics-1/img/footer-pinterest.png" alt="PS">
+                            </li>
+                            <li>
+                                <img src="../assets/vue-dc-comics-1/img/footer-periscope.png" alt="PR">
+                            </li>
+                        </ul>
+                    </div>
+                </div>
             </div>
         </section>
     </footer>

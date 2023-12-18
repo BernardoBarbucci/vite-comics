@@ -5,27 +5,32 @@
     @include reset;
     font-family: 'Roboto', sans-serif;
 }
+
 .container {
     @include container;
     @include flex;
 }
+
 // header
 header {
     height: 5rem;
     background-color: $white;
 }
+
 .nav-list {
     @include flex;
     list-style: none;
 
-    li{
+    li {
         transition: border-bottom 0.3s ease;
     }
-    li:hover{
+
+    li:hover {
         @extend li;
         border-bottom: $borderHbottom solid $theme-color;
     }
 }
+
 h1 {
     color: white;
     font-weight: 700;
@@ -45,11 +50,11 @@ main {
 }
 
 // jumbotron
-.current-series{
+.current-series {
     height: 2rem;
     padding-top: 14rem;
 
-    P{
+    P {
         background-color: rgb(47, 131, 241);
         height: 2rem;
         width: 8rem;
@@ -61,37 +66,61 @@ main {
 }
 
 // books / comics cards
-#books{
+#books {
     height: 22rem;
     background-color: $content-color;
 }
+
 // categories
-.comics-categ{
+.comics-categ {
     @include flex-evenly;
     width: 100%;
     height: 100%;
 }
-.comic-card{
+
+.comic-card {
     @include flex-evenly;
     height: 100%;
     list-style: none;
     transition: transform .4s ease-in-out;
 
-    .comic-img{
-    height: 2.3rem;
+    .comic-img {
+        height: 2.3rem;
     }
-    p{
+
+    p {
         font-size: .75rem;
         color: $white;
         margin-left: 5px;
     }
-    &:hover{
+
+    &:hover {
         transform: scale(1.25);
         transform-origin: center center;
         font-weight: bold;
     }
 }
+
 // footer
-.footer-lists{
+.footer-lists {
     @include flex-row;
+}
+
+#social-media {
+    background-color: $bottom-color;
+    height: 5.5rem
+}
+
+.wrapper {
+    @include flex;
+    width: 100%;
+}
+
+.left-info h1 {
+    font-size: 1.2rem;
+
+    height: 2rem;
+    width: 7rem;
+    background-color: transparent;
+    border: 2px solid $theme-color;
 }
