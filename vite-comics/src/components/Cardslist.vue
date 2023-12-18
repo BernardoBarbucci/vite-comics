@@ -1,5 +1,5 @@
 <template>
-    <div class="comic-card">
+    <div class="comic-article">
         <img :src="card.thumb" alt="Comic Thumbnail" />
         <h3>{{ card.series }}</h3>
         <p>{{ card.price }}</p>
@@ -18,5 +18,16 @@ export default {
 };
 </script>
 
-<style lang="sass">
+<style lang="scss" scoped>
+.comic-article {
+    height: 10rem;
+    width: 10rem;
+    margin: 1rem;
+    color: white;
+
+    img {
+        width: 100%;
+        height: 100%;
+    }
+}
 </style>

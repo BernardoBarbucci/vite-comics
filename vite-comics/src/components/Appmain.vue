@@ -9,8 +9,8 @@
         </section>
 
         <section id="books">
-            <div>
-                <Cardslist v-for="(card, index) in comicsData" :key="index" :card="card" />
+            <div class="container">
+                <Cardslist v-for="(card, index) in comicsData" :key="index" :card="card" class="articolo" />
             </div>
         </section>
 
@@ -79,5 +79,9 @@ export default {
     background-image: url('../assets/vue-dc-comics-1/img/jumbotron.jpg');
     background-size: cover;
     background-position: top;
+}
+
+.container {
+    padding: 3rem 1rem;
 }
 </style>
