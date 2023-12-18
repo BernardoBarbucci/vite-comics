@@ -9,14 +9,17 @@
         </section>
 
         <section id="books">
-
+            <div>
+                <ComicCard v-for="(card, index) in comicsData" :key="index" :card="card" />
+            </div>
         </section>
 
         <section id="categories">
             <div class="container">
                 <ul class="comics-categ">
                     <li class="comic-card">
-                        <img src="../assets/vue-dc-comics-1/img/buy-comics-digital-comics.png" class="comic-img" alt="digital comics">
+                        <img src="../assets/vue-dc-comics-1/img/buy-comics-digital-comics.png" class="comic-img"
+                            alt="digital comics">
                         <p>DIGITAL COMICS</p>
                     </li>
                     <li class="comic-card">
@@ -28,7 +31,8 @@
                         <p>SUBSCRIPTION</p>
                     </li>
                     <li class="comic-card">
-                        <img src="../assets/vue-dc-comics-1/img/buy-comics-shop-locator.png" class="comic-img" alt="shops location">
+                        <img src="../assets/vue-dc-comics-1/img/buy-comics-shop-locator.png" class="comic-img"
+                            alt="shops location">
                         <p>COMIC SHOP LOCATOR</p>
                     </li>
                     <li class="comic-card">
@@ -42,16 +46,33 @@
 </template>
 
 <script>
+import comic-card from '../components/Cardslist.vue';
+import jsonData from '../assets/vue-dc-comics-2/dc-comics.json';
+
 export default {
-    name: 'Appmain'
-}
+    name: 'Appmain', // Cambia ";" con ","
+    components: {
+        ComicCard,
+    },
+    data() {
+        return {
+            comicsData: [],
+        };
+    },
+    methods: {
+        comicsUpload() {
+            this.comicsData = jsonData;
+        }
+    },
+};
 </script>
 
 <style lang="scss" scoped>
-.last-comic-img{
+.last-comic-img {
     height: 1.7rem;
 }
-#content{
+
+#content {
     background-image: url('../assets/vue-dc-comics-1/img/jumbotron.jpg');
     background-size: cover;
     background-position: top;

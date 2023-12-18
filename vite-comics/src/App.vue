@@ -23,3 +23,4 @@ export default {
 @use './components/style/general.scss' as *;
 // @use './components/style/partials/mixins' as *;
 </style>
+
