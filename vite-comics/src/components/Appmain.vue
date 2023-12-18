@@ -46,11 +46,11 @@
 </template>
 
 <script>
-import comic-card from '../components/Cardslist.vue';
+import ComicCard from '../assets/vue-dc-comics-2/dc-comics.json';
 import jsonData from '../assets/vue-dc-comics-2/dc-comics.json';
 
 export default {
-    name: 'Appmain', // Cambia ";" con ","
+    name: 'Appmain',
     components: {
         ComicCard,
     },
@@ -58,6 +58,9 @@ export default {
         return {
             comicsData: [],
         };
+    },
+    created() {
+        this.comicsUpload();
     },
     methods: {
         comicsUpload() {
