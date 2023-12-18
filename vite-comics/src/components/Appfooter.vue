@@ -127,4 +127,16 @@ export default {
         color: white;
     }
 }
+
+.socials {
+    list-style: none;
+
+    li {
+        margin-top: 4px;
+
+        img {
+            height: 1.5rem;
+        }
+    }
+}
 </style>

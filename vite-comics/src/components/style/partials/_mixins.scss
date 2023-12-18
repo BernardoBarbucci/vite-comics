@@ -26,10 +26,17 @@
     flex-wrap: wrap;
 }
 
-@mixin flex-row{
+@mixin flex-row {
     display: flex;
     justify-content: start;
     align-items: start;
+    flex-wrap: wrap;
+}
+
+@mixin flex-around {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     flex-wrap: wrap;
 }
 
@@ -38,4 +45,3 @@
     max-width: 85%;
     margin: auto;
 }
-

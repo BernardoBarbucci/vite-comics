@@ -135,7 +135,17 @@ main {
 .right-info {
     @include flex-row;
 
-    ul {
-        @include flex-row;
+    p {
+        font-size: .8rem;
+        font-weight: bold;
+        color: $theme-color;
+        line-height: 33px;
+        margin-right: .7rem;
+    }
+
+    .socials {
+        width: 13rem;
+        @include flex-around;
+        line-height: 30px;
     }
 }
