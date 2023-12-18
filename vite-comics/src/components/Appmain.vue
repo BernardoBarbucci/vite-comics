@@ -10,7 +10,7 @@
 
         <section id="books">
             <div>
-                <ComicCard v-for="(card, index) in comicsData" :key="index" :card="card" />
+                <Cardslist v-for="(card, index) in comicsData" :key="index" :card="card" />
             </div>
         </section>
 
@@ -46,13 +46,13 @@
 </template>
 
 <script>
-import ComicCard from '../assets/vue-dc-comics-2/dc-comics.json';
+import Cardslist from '../components/Cardslist.vue';
 import jsonData from '../assets/vue-dc-comics-2/dc-comics.json';
 
 export default {
     name: 'Appmain',
     components: {
-        ComicCard,
+        Cardslist,
     },
     data() {
         return {
