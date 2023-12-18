@@ -22,12 +22,29 @@ export default {
 .comic-article {
     height: 10rem;
     width: 10rem;
-    margin: 1rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    margin-bottom: 5rem;
     color: white;
+    transition: transform .4s ease-in-out;
+
+    &:hover {
+        transform: scale(1.25);
+        transform-origin: center center;
+    }
 
     img {
         width: 100%;
         height: 100%;
+    }
+
+    h3 {
+        font-size: .8rem;
+        font-weight: 600;
+    }
+
+    p {
+        font-size: .7rem;
     }
 }
 </style>

@@ -43,7 +43,7 @@ main {
     }
 
     #categories {
-        height: 7rem;
+        height: 8rem;
         width: 100%;
         background-color: $theme-color;
     }
@@ -52,7 +52,7 @@ main {
 // jumbotron
 .current-series {
     height: 2rem;
-    padding-top: 14rem;
+    padding-top: 12rem;
 
     p {
         background-color: rgb(47, 131, 241);
@@ -67,7 +67,7 @@ main {
 
 // books / comics cards
 #books {
-    height: 24rem;
+    height: 100%;
     background-color: $content-color;
 }
 
@@ -141,6 +141,12 @@ main {
         color: $theme-color;
         line-height: 33px;
         margin-right: .7rem;
+        transition: transform 0.3s ease-in-out;
+
+        &:hover {
+            transform: scale(1.25);
+            transform-origin: center center;
+        }
     }
 
     .socials {
